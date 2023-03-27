@@ -1,0 +1,25 @@
+array Not selected 
+array in progress 
+array completed
+------------------------ 
+function add 
+
+------------------------
+start function 3 loop 
+
+1. not selected 
+( display. innerHTML )
+
+2. inprogress 
+( display. innerHTML )
+
+3. completed 
+( display. innerHTML )
+
+---------------------------------
+drag 
+arrayName.splice 
+
+---------------------------------
+drop
+arrayName.push()

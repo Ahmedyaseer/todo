@@ -1,0 +1,121 @@
+/* Universal style */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* body style  */
+body {
+  background-color: #35b60e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* contanier style */
+.contanier {
+  background-color: #ffffff3a;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+/* section 1 (Add Text , input , add btn ) */
+.add {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* h2 style  */
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+
+/* (style input , add btn */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+/* input style */
+.add input {
+  padding: 16px;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+/* btn add */
+.btn {
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  background-color: #258a064b;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Section 2 Boxs */
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 110%;
+  gap: 15px;
+}
+
+/* Style Each Box */
+.placeToadd {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Text will add via JS */
+.text {
+  background-color: #35b60e;
+  margin: 4px;
+  padding: 10px;
+  cursor: move;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.pack {
+  position: absolute;
+}
+.delete {
+  position: relative;
+  bottom: 38px;
+  left: 136px;
+  padding: 4%;
+  color: #ff0000;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.remove {
+  display: none;
+}
